@@ -16,3 +16,15 @@ Making the elo ratings for the players. this will; serve as a key parameter as w
 Linear regression
 Logistic regression
 Random forest
+
+
+# Key Aspects of the Project Report:
+a. Introduction
+b. Literature Review (Optional)
+c. Dataset(s) Source and Description
+d. Data Exploration and Important Features
+e. Methods
+f. Experimentation
+g. Final Results
+h. Conclusion
+i. References
