@@ -62,7 +62,10 @@
 
 ###
 
-<p align="left">The primary dataset for this project is sourced from Jeff Sackmann’s 'tennis_atp' GitHub repository (Sackmann, n.d.), a widely recognized open-access collection of raw historical match data for the Association of Tennis Professionals (ATP) men’s professional tennis circuit. This repository, available at https://github.com/JeffSackmann/tennis_atp/tree/master, provides annual CSV files (e.g., atp_matches_2010.csv through atp_matches_2024.csv) containing detailed records of ATP matches spanning from the 1960s to the present, with a focus in this project on the recent period of 2018–2023 to ensure relevance and manage computational scope. Each file encapsulates match-level data, including tournament details, player identities, outcomes, and performance statistics, making it an ideal raw resource for predictive modeling as inspired by Green Code’s (2025) approach to tennis match prediction.</p>
+<p align="left">
+- https://fivethirtyeight.com/features/how-should-we-rate-a-tennis-player/
+- https://www.sciencedirect.com/science/article/abs/pii/S0377221721003234?via%3Dihub
+</p>
 
 ###
 
