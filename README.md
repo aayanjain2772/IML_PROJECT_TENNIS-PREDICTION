@@ -1,37 +1,77 @@
-# IML_PROJECT_TENNIS-PREDICTION
+<h1 align="center">Predictive Modeling of ATP Tennis Outcomes Using Custom Elo Ratings: A Manual Implementation</h1>
 
-1. Dataset Source and Description:
-Our source is this link: https://github.com/JeffSackmann/tennis_atp/tree/master
-We will be using data from 2010 to 2024
-Our goal is to predict Wimbledone 2025
-## Features: 
-tourney_date, surface, winner_name, loser_name, winner_rank, loser_rank, w_ace, l_ace, etc.
-## Raw State: 
-Unprocessed with missing stats (e.g., aces), inconsistent names, and no precomputed ratings.
+###
 
-# One Key FEature Engineering aspect:
-Making the elo ratings for the players. this will; serve as a key parameter as we will see in the data exploration.
+<h2 align="left">a) Introduction</h2>
 
-# Models:
-Linear regression
-Logistic regression
-Random forest
+###
 
+<p align="left">Blah blah blah, we will predict tennis matches using AI and ML learned in class. rough rough rough</p>
 
-# Key Aspects of the Project Report:
-a. Introduction
-b. Literature Review (Optional)
-c. Dataset(s) Source and Description
-d. Data Exploration and Important Features
-e. Methods
-f. Experimentation
-g. Final Results
-h. Conclusion
-i. References
+###
 
-Essentially the main steps of the Project in terms of the code are as follows:
-- Gather the data ( have the source, collect 2010 to 2024 )
-- Clean the data, make sure its usable for the model prediction.
-- Implement an elo_rating feature, by certain feature engineering methods. An important part of this feature is the subsequent surface_elo_rating.
-- Models.ipynb:
-    These will include= Linear regression, logistic regression, random forest {essentially}. Obviously there are quite a few aspects to these features involved since we have to build the functions on our own.
+<h2 align="left">b) Dataset(s) Sources and Description:</h2>
+
+###
+
+<p align="left">The primary dataset for this project is sourced from Jeff Sackmann’s 'tennis_atp' GitHub repository (Sackmann, n.d.), a widely recognized open-access collection of raw historical match data for the Association of Tennis Professionals (ATP) men’s professional tennis circuit. This repository, available at https://github.com/JeffSackmann/tennis_atp/tree/master, provides annual CSV files (e.g., atp_matches_2010.csv through atp_matches_2024.csv) containing detailed records of ATP matches spanning from the 1960s to the present, with a focus in this project on the recent period of 2018–2023 to ensure relevance and manage computational scope. Each file encapsulates match-level data, including tournament details, player identities, outcomes, and performance statistics, making it an ideal raw resource for predictive modeling as inspired by Green Code’s (2025) approach to tennis match prediction.</p>
+
+###
+
+<h2 align="left">c) Data Exploration and Important Feeatures:</h2>
+
+###
+
+<p align="left">The primary dataset for this project is sourced from Jeff Sackmann’s 'tennis_atp' GitHub repository (Sackmann, n.d.), a widely recognized open-access collection of raw historical match data for the Association of Tennis Professionals (ATP) men’s professional tennis circuit. This repository, available at https://github.com/JeffSackmann/tennis_atp/tree/master, provides annual CSV files (e.g., atp_matches_2010.csv through atp_matches_2024.csv) containing detailed records of ATP matches spanning from the 1960s to the present, with a focus in this project on the recent period of 2018–2023 to ensure relevance and manage computational scope. Each file encapsulates match-level data, including tournament details, player identities, outcomes, and performance statistics, making it an ideal raw resource for predictive modeling as inspired by Green Code’s (2025) approach to tennis match prediction.</p>
+
+###
+
+<h2 align="left">d) Methods:</h2>
+
+###
+
+<p align="left">The primary dataset for this project is sourced from Jeff Sackmann’s 'tennis_atp' GitHub repository (Sackmann, n.d.), a widely recognized open-access collection of raw historical match data for the Association of Tennis Professionals (ATP) men’s professional tennis circuit. This repository, available at https://github.com/JeffSackmann/tennis_atp/tree/master, provides annual CSV files (e.g., atp_matches_2010.csv through atp_matches_2024.csv) containing detailed records of ATP matches spanning from the 1960s to the present, with a focus in this project on the recent period of 2018–2023 to ensure relevance and manage computational scope. Each file encapsulates match-level data, including tournament details, player identities, outcomes, and performance statistics, making it an ideal raw resource for predictive modeling as inspired by Green Code’s (2025) approach to tennis match prediction.</p>
+
+###
+
+<h2 align="left">e) Experimentation:</h2>
+
+###
+
+<p align="left">The primary dataset for this project is sourced from Jeff Sackmann’s 'tennis_atp' GitHub repository (Sackmann, n.d.), a widely recognized open-access collection of raw historical match data for the Association of Tennis Professionals (ATP) men’s professional tennis circuit. This repository, available at https://github.com/JeffSackmann/tennis_atp/tree/master, provides annual CSV files (e.g., atp_matches_2010.csv through atp_matches_2024.csv) containing detailed records of ATP matches spanning from the 1960s to the present, with a focus in this project on the recent period of 2018–2023 to ensure relevance and manage computational scope. Each file encapsulates match-level data, including tournament details, player identities, outcomes, and performance statistics, making it an ideal raw resource for predictive modeling as inspired by Green Code’s (2025) approach to tennis match prediction.</p>
+
+###
+
+<h2 align="left">f) Final Results:</h2>
+
+###
+
+<p align="left">The primary dataset for this project is sourced from Jeff Sackmann’s 'tennis_atp' GitHub repository (Sackmann, n.d.), a widely recognized open-access collection of raw historical match data for the Association of Tennis Professionals (ATP) men’s professional tennis circuit. This repository, available at https://github.com/JeffSackmann/tennis_atp/tree/master, provides annual CSV files (e.g., atp_matches_2010.csv through atp_matches_2024.csv) containing detailed records of ATP matches spanning from the 1960s to the present, with a focus in this project on the recent period of 2018–2023 to ensure relevance and manage computational scope. Each file encapsulates match-level data, including tournament details, player identities, outcomes, and performance statistics, making it an ideal raw resource for predictive modeling as inspired by Green Code’s (2025) approach to tennis match prediction.</p>
+
+###
+
+<h2 align="left">g) Conclusions:</h2>
+
+###
+
+<p align="left">The primary dataset for this project is sourced from Jeff Sackmann’s 'tennis_atp' GitHub repository (Sackmann, n.d.), a widely recognized open-access collection of raw historical match data for the Association of Tennis Professionals (ATP) men’s professional tennis circuit. This repository, available at https://github.com/JeffSackmann/tennis_atp/tree/master, provides annual CSV files (e.g., atp_matches_2010.csv through atp_matches_2024.csv) containing detailed records of ATP matches spanning from the 1960s to the present, with a focus in this project on the recent period of 2018–2023 to ensure relevance and manage computational scope. Each file encapsulates match-level data, including tournament details, player identities, outcomes, and performance statistics, making it an ideal raw resource for predictive modeling as inspired by Green Code’s (2025) approach to tennis match prediction.</p>
+
+###
+
+<h2 align="left">h) References:</h2>
+
+###
+
+<p align="left">The primary dataset for this project is sourced from Jeff Sackmann’s 'tennis_atp' GitHub repository (Sackmann, n.d.), a widely recognized open-access collection of raw historical match data for the Association of Tennis Professionals (ATP) men’s professional tennis circuit. This repository, available at https://github.com/JeffSackmann/tennis_atp/tree/master, provides annual CSV files (e.g., atp_matches_2010.csv through atp_matches_2024.csv) containing detailed records of ATP matches spanning from the 1960s to the present, with a focus in this project on the recent period of 2018–2023 to ensure relevance and manage computational scope. Each file encapsulates match-level data, including tournament details, player identities, outcomes, and performance statistics, making it an ideal raw resource for predictive modeling as inspired by Green Code’s (2025) approach to tennis match prediction.</p>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
+</div>
+
+###
