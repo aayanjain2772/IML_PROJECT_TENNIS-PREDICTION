@@ -28,3 +28,10 @@ f. Experimentation
 g. Final Results
 h. Conclusion
 i. References
+
+Essentially the main steps of the Project in terms of the code are as follows:
+- Gather the data ( have the source, collect 2010 to 2024 )
+- Clean the data, make sure its usable for the model prediction.
+- Implement an elo_rating feature, by certain feature engineering methods. An important part of this feature is the subsequent surface_elo_rating.
+- Models.ipynb:
+    These will include= Linear regression, logistic regression, random forest {essentially}. Obviously there are quite a few aspects to these features involved since we have to build the functions on our own.
