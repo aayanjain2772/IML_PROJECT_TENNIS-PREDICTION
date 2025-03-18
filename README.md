@@ -35,9 +35,7 @@ A key aspect in our project is the aspect of coming up with a Custom Elo rating 
 
 <p align="left">
 - Elo rating formula:
-</p> 
 x<sup>3</sup>
-<p align="left">
 - Base rating:
 - Rating updating rule:
 - Before and after match ratings
