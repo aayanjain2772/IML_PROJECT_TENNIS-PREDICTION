@@ -26,7 +26,23 @@ So we used a jupyter notebook to handle cleaning, and I think the correct way to
 
 ###
 
-<p align="left">In the previous step, we just encorporated handling missing values and cleaned our data. Now the handled .csv file contains no missing values and we can do our data exploration now. The goal of data exploration is to: understand the data, its distribution, datatypes, shape, identify outliers, skewness, patterns and relationships, examine the range, central tendency, look for correlations, detect anamolies, find errors, inform feature engineering, and ultimately generate insights.</p>
+<p align="left">In the previous step, we just encorporated handling missing values and cleaned our data. Now the handled .csv file contains no missing values and we can do our data exploration now. The goal of data exploration is to: understand the data, its distribution, datatypes, shape, identify outliers, skewness, patterns and relationships, examine the range, central tendency, look for correlations, detect anamolies, find errors, inform feature engineering, and ultimately generate insights.
+
+A key aspect in our project is the aspect of coming up with a Custom Elo rating algorithm, here we will call it the TennisElo. For someone who isn't familiar with the Elo rating, they can refer to this page: https://www.chess.com/terms/elo-rating-chess; but essentially it's an algorithm used to rank players in Chess. We have implemented its functionality for our project, but have modified its logic specific to tennis. We have also defined its parameters seperate from chess, since it's a different game. An Elo rating is essentially a comparative predictive model. Now for the sake of this project we will not go very in-depth into the aspects of sets played, game formats and other aspects because we have kept the logic same throughout our overall work. If someone were to internsively research on TennisElo and creating predictive models on the described dataset, we would suggest them to look into depths such as specific surface ratings and other aspects. One challenge we encountered was handling the entrance of new players into our dataset, which we will explain here. Overall, in our opinion and through extensive research, the Elo Rating is valid approach to figuring out tennis matches and playerVplayer matchups.
+</p>
+
+<h5 align="left">the Tennis Elo</h5>
+
+<p align="left">
+- Elo rating formula:
+</p>
+' $$ E_A = 1/(1 + 10^(R_B - R_A)/400) $$'
+<p align="left">
+- Base rating:
+- Rating updating rule:
+- Before and after match ratings
+- Elo parameters
+</p>
 
 ###
 
