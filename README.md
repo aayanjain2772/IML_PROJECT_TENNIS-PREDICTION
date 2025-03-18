@@ -71,6 +71,7 @@ So we used a jupyter notebook to handle cleaning, and I think the correct way to
 - https://www.sciencedirect.com/science/article/abs/pii/S0377221721003234?via%3Dihub
 - https://www.tennisabstract.com/blog/2019/12/03/an-introduction-to-tennis-elo/ 
 - https://tennisabstract.com/reports/atp_elo_ratings.html 
+- https://gwern.net/doc/statistics/order/comparison/1978-elo-theratingofchessplayerspastandpresent.pdf 
 </p>
 
 ###
