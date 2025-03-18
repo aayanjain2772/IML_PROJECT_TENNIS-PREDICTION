@@ -36,7 +36,7 @@ A key aspect in our project is the aspect of coming up with a Custom Elo rating 
 <p align="left">
 - Elo rating formula:
 </p>
-' $$ E_A = 1/(1 + 10^(R_B - R_A)/400) $$'
+" $$ E_A = 1/(1 + 10^(R_B - R_A)/400) $$ "
 <p align="left">
 - Base rating:
 - Rating updating rule:
