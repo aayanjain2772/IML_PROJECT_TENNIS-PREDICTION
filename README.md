@@ -36,13 +36,15 @@ A key aspect in our project is the aspect of coming up with a Custom Elo rating 
 <p align="left">
 - Elo rating formula: The original elo rating formula is as such, E<sub>A</sub> = 1 / 1 + 10<sup>(R<sub>B</sub> - R<sub>A</sub>)/400</sup>
 
-- Base rating:
+- Base rating: 1500 for every new entry into the dataframe.
 
-- Rating updating rule:
+- Rating updating rule: R<sub>A</sub>' = R<sub>A</sub> + K * (S<sub>A</sub> - E<sub>A</sub>)
 
-- Before and after match ratings
+- Before and after match ratings: will be done.
 
-- Elo parameters
+- K: depends on rank, tourney_type, and surface
+
+These classify as the TennisElo parameters.
 
 </p>
 
