@@ -34,12 +34,16 @@ A key aspect in our project is the aspect of coming up with a Custom Elo rating 
 <h5 align="left">the Tennis Elo</h5>
 
 <p align="left">
-- Elo rating formula:
-x<sup>3</sup>
+- Elo rating formula: The original elo rating formula is as such, E<sub>A</sub> = 1 / 1 + 10<sup>(R<sub>B</sub> - R<sub>A</sub>)/400</sup>
+
 - Base rating:
+
 - Rating updating rule:
+
 - Before and after match ratings
+
 - Elo parameters
+
 </p>
 
 ###
